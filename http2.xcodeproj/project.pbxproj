@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570038E12313C2F441339C9B /* libPods-http2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8B5DA67CA4B0C911B3B2C3 /* libPods-http2.a */; };
+		63A3698C1E12790700919F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3698B1E12790700919F7A /* main.m */; };
+		63A3698F1E12790700919F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3698E1E12790700919F7A /* AppDelegate.m */; };
+		63A369921E12790700919F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A369911E12790700919F7A /* ViewController.m */; };
+		63A369951E12790700919F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A369931E12790700919F7A /* Main.storyboard */; };
+		63A369981E12790700919F7A /* http2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A369961E12790700919F7A /* http2.xcdatamodeld */; };
+		63A3699A1E12790700919F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A369991E12790700919F7A /* Assets.xcassets */; };
+		63A3699D1E12790700919F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3699B1E12790700919F7A /* LaunchScreen.storyboard */; };
+		63A369A81E12790700919F7A /* http2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A369A71E12790700919F7A /* http2Tests.m */; };
+		63A369B31E12790700919F7A /* http2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A369B21E12790700919F7A /* http2UITests.m */; };
+		8A8E285129BADF246D9D235B /* libPods-http2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5456E759E8D5F821F386ADD /* libPods-http2UITests.a */; };
+		954DEEC5F0E0F398289A8C86 /* libPods-http2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E1DDAD15CC9449B187CC25 /* libPods-http2Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A369A41E12790700919F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A3697F1E12790700919F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A369861E12790700919F7A;
+			remoteInfo = http2;
+		};
+		63A369AF1E12790700919F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A3697F1E12790700919F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A369861E12790700919F7A;
+			remoteInfo = http2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1F41E96BB9A6E743571380 /* Pods-http2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-http2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-http2Tests/Pods-http2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C8B5DA67CA4B0C911B3B2C3 /* libPods-http2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-http2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A369871E12790700919F7A /* http2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = http2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3698B1E12790700919F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63A3698D1E12790700919F7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63A3698E1E12790700919F7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63A369901E12790700919F7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63A369911E12790700919F7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63A369941E12790700919F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63A369971E12790700919F7A /* http2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = http2.xcdatamodel; sourceTree = "<group>"; };
+		63A369991E12790700919F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A3699C1E12790700919F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63A3699E1E12790700919F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A369A31E12790700919F7A /* http2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = http2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A369A71E12790700919F7A /* http2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = http2Tests.m; sourceTree = "<group>"; };
+		63A369A91E12790700919F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A369AE1E12790700919F7A /* http2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = http2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A369B21E12790700919F7A /* http2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = http2UITests.m; sourceTree = "<group>"; };
+		63A369B41E12790700919F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738131E44B419D967BEA3518 /* Pods-http2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-http2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-http2/Pods-http2.debug.xcconfig"; sourceTree = "<group>"; };
+		7F0C8BA52464DBA238AE27BF /* Pods-http2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-http2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-http2Tests/Pods-http2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A5E1DDAD15CC9449B187CC25 /* libPods-http2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-http2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5456E759E8D5F821F386ADD /* libPods-http2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-http2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CA26F348EB0DD5F587E9F1 /* Pods-http2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-http2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-http2UITests/Pods-http2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E864DD3B9C50EB3E0EEC4CE0 /* Pods-http2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-http2.release.xcconfig"; path = "Pods/Target Support Files/Pods-http2/Pods-http2.release.xcconfig"; sourceTree = "<group>"; };
+		FBEE74F99AFF77A78A4409F0 /* Pods-http2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-http2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-http2UITests/Pods-http2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A369841E12790700919F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570038E12313C2F441339C9B /* libPods-http2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A369A01E12790700919F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954DEEC5F0E0F398289A8C86 /* libPods-http2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A369AB1E12790700919F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8E285129BADF246D9D235B /* libPods-http2UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDFF427C20B0511AB5BB265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B5DA67CA4B0C911B3B2C3 /* libPods-http2.a */,
+				A5E1DDAD15CC9449B187CC25 /* libPods-http2Tests.a */,
+				B5456E759E8D5F821F386ADD /* libPods-http2UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63A3697E1E12790700919F7A = {
+			isa = PBXGroup;
+			children = (
+				63A369891E12790700919F7A /* http2 */,
+				63A369A61E12790700919F7A /* http2Tests */,
+				63A369B11E12790700919F7A /* http2UITests */,
+				63A369881E12790700919F7A /* Products */,
+				7391C9A227D2B44383B89A3E /* Pods */,
+				2CDFF427C20B0511AB5BB265 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63A369881E12790700919F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A369871E12790700919F7A /* http2.app */,
+				63A369A31E12790700919F7A /* http2Tests.xctest */,
+				63A369AE1E12790700919F7A /* http2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A369891E12790700919F7A /* http2 */ = {
+			isa = PBXGroup;
+			children = (
+				63A3698D1E12790700919F7A /* AppDelegate.h */,
+				63A3698E1E12790700919F7A /* AppDelegate.m */,
+				63A369901E12790700919F7A /* ViewController.h */,
+				63A369911E12790700919F7A /* ViewController.m */,
+				63A369931E12790700919F7A /* Main.storyboard */,
+				63A369991E12790700919F7A /* Assets.xcassets */,
+				63A3699B1E12790700919F7A /* LaunchScreen.storyboard */,
+				63A3699E1E12790700919F7A /* Info.plist */,
+				63A369961E12790700919F7A /* http2.xcdatamodeld */,
+				63A3698A1E12790700919F7A /* Supporting Files */,
+			);
+			path = http2;
+			sourceTree = "<group>";
+		};
+		63A3698A1E12790700919F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A3698B1E12790700919F7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63A369A61E12790700919F7A /* http2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63A369A71E12790700919F7A /* http2Tests.m */,
+				63A369A91E12790700919F7A /* Info.plist */,
+			);
+			path = http2Tests;
+			sourceTree = "<group>";
+		};
+		63A369B11E12790700919F7A /* http2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				63A369B21E12790700919F7A /* http2UITests.m */,
+				63A369B41E12790700919F7A /* Info.plist */,
+			);
+			path = http2UITests;
+			sourceTree = "<group>";
+		};
+		7391C9A227D2B44383B89A3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				738131E44B419D967BEA3518 /* Pods-http2.debug.xcconfig */,
+				E864DD3B9C50EB3E0EEC4CE0 /* Pods-http2.release.xcconfig */,
+				0B1F41E96BB9A6E743571380 /* Pods-http2Tests.debug.xcconfig */,
+				7F0C8BA52464DBA238AE27BF /* Pods-http2Tests.release.xcconfig */,
+				FBEE74F99AFF77A78A4409F0 /* Pods-http2UITests.debug.xcconfig */,
+				C3CA26F348EB0DD5F587E9F1 /* Pods-http2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A369861E12790700919F7A /* http2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A369B71E12790800919F7A /* Build configuration list for PBXNativeTarget "http2" */;
+			buildPhases = (
+				151D67C22A1D5744A5FD6A0E /* [CP] Check Pods Manifest.lock */,
+				63A369831E12790700919F7A /* Sources */,
+				63A369841E12790700919F7A /* Frameworks */,
+				63A369851E12790700919F7A /* Resources */,
+				504C73150665BE0FC6D96576 /* [CP] Embed Pods Frameworks */,
+				092828F4CE42DDCCFA61B9BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = http2;
+			productName = http2;
+			productReference = 63A369871E12790700919F7A /* http2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A369A21E12790700919F7A /* http2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A369BA1E12790800919F7A /* Build configuration list for PBXNativeTarget "http2Tests" */;
+			buildPhases = (
+				E9C83922C572A276CDCCEF1E /* [CP] Check Pods Manifest.lock */,
+				63A3699F1E12790700919F7A /* Sources */,
+				63A369A01E12790700919F7A /* Frameworks */,
+				63A369A11E12790700919F7A /* Resources */,
+				EEFD407B34584E903091183F /* [CP] Embed Pods Frameworks */,
+				D3D82B6D1F4701C5A8942B77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A369A51E12790700919F7A /* PBXTargetDependency */,
+			);
+			name = http2Tests;
+			productName = http2Tests;
+			productReference = 63A369A31E12790700919F7A /* http2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63A369AD1E12790700919F7A /* http2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A369BD1E12790800919F7A /* Build configuration list for PBXNativeTarget "http2UITests" */;
+			buildPhases = (
+				C8F5CED0325DCC96336D7AE3 /* [CP] Check Pods Manifest.lock */,
+				63A369AA1E12790700919F7A /* Sources */,
+				63A369AB1E12790700919F7A /* Frameworks */,
+				63A369AC1E12790700919F7A /* Resources */,
+				E9B6515663796EE58EBB89B0 /* [CP] Embed Pods Frameworks */,
+				7C24D2100481B4D6FFF31078 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A369B01E12790700919F7A /* PBXTargetDependency */,
+			);
+			name = http2UITests;
+			productName = http2UITests;
+			productReference = 63A369AE1E12790700919F7A /* http2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A3697F1E12790700919F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = dk;
+				TargetAttributes = {
+					63A369861E12790700919F7A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GVWYUWN6XV;
+						ProvisioningStyle = Automatic;
+					};
+					63A369A21E12790700919F7A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CB386RXXEW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63A369861E12790700919F7A;
+					};
+					63A369AD1E12790700919F7A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CB386RXXEW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63A369861E12790700919F7A;
+					};
+				};
+			};
+			buildConfigurationList = 63A369821E12790700919F7A /* Build configuration list for PBXProject "http2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A3697E1E12790700919F7A;
+			productRefGroup = 63A369881E12790700919F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A369861E12790700919F7A /* http2 */,
+				63A369A21E12790700919F7A /* http2Tests */,
+				63A369AD1E12790700919F7A /* http2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A369851E12790700919F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A3699D1E12790700919F7A /* LaunchScreen.storyboard in Resources */,
+				63A3699A1E12790700919F7A /* Assets.xcassets in Resources */,
+				63A369951E12790700919F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A369A11E12790700919F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A369AC1E12790700919F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		092828F4CE42DDCCFA61B9BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-http2/Pods-http2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		151D67C22A1D5744A5FD6A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		504C73150665BE0FC6D96576 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-http2/Pods-http2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C24D2100481B4D6FFF31078 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-http2UITests/Pods-http2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F5CED0325DCC96336D7AE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D82B6D1F4701C5A8942B77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-http2Tests/Pods-http2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B6515663796EE58EBB89B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-http2UITests/Pods-http2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C83922C572A276CDCCEF1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFD407B34584E903091183F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-http2Tests/Pods-http2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A369831E12790700919F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A369981E12790700919F7A /* http2.xcdatamodeld in Sources */,
+				63A369921E12790700919F7A /* ViewController.m in Sources */,
+				63A3698F1E12790700919F7A /* AppDelegate.m in Sources */,
+				63A3698C1E12790700919F7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A3699F1E12790700919F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A369A81E12790700919F7A /* http2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A369AA1E12790700919F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A369B31E12790700919F7A /* http2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A369A51E12790700919F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A369861E12790700919F7A /* http2 */;
+			targetProxy = 63A369A41E12790700919F7A /* PBXContainerItemProxy */;
+		};
+		63A369B01E12790700919F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A369861E12790700919F7A /* http2 */;
+			targetProxy = 63A369AF1E12790700919F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63A369931E12790700919F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A369941E12790700919F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63A3699B1E12790700919F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A3699C1E12790700919F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A369B51E12790800919F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63A369B61E12790800919F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A369B81E12790800919F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738131E44B419D967BEA3518 /* Pods-http2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVWYUWN6XV;
+				INFOPLIST_FILE = http2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dk.http2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63A369B91E12790800919F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E864DD3B9C50EB3E0EEC4CE0 /* Pods-http2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVWYUWN6XV;
+				INFOPLIST_FILE = http2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dk.http2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63A369BB1E12790800919F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1F41E96BB9A6E743571380 /* Pods-http2Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CB386RXXEW;
+				INFOPLIST_FILE = http2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dk.http2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/http2.app/http2";
+			};
+			name = Debug;
+		};
+		63A369BC1E12790800919F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0C8BA52464DBA238AE27BF /* Pods-http2Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CB386RXXEW;
+				INFOPLIST_FILE = http2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dk.http2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/http2.app/http2";
+			};
+			name = Release;
+		};
+		63A369BE1E12790800919F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEE74F99AFF77A78A4409F0 /* Pods-http2UITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CB386RXXEW;
+				INFOPLIST_FILE = http2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dk.http2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = http2;
+			};
+			name = Debug;
+		};
+		63A369BF1E12790800919F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CA26F348EB0DD5F587E9F1 /* Pods-http2UITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CB386RXXEW;
+				INFOPLIST_FILE = http2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dk.http2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = http2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A369821E12790700919F7A /* Build configuration list for PBXProject "http2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A369B51E12790800919F7A /* Debug */,
+				63A369B61E12790800919F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A369B71E12790800919F7A /* Build configuration list for PBXNativeTarget "http2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A369B81E12790800919F7A /* Debug */,
+				63A369B91E12790800919F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63A369BA1E12790800919F7A /* Build configuration list for PBXNativeTarget "http2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A369BB1E12790800919F7A /* Debug */,
+				63A369BC1E12790800919F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63A369BD1E12790800919F7A /* Build configuration list for PBXNativeTarget "http2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A369BE1E12790800919F7A /* Debug */,
+				63A369BF1E12790800919F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63A369961E12790700919F7A /* http2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63A369971E12790700919F7A /* http2.xcdatamodel */,
+			);
+			currentVersion = 63A369971E12790700919F7A /* http2.xcdatamodel */;
+			path = http2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63A3697F1E12790700919F7A /* Project object */;
+}
